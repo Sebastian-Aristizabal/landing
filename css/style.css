@@ -14,6 +14,7 @@
 body {
   margin: 0px;
   font-family: Open Sans;
+  max-width: 1400;
 }
 
 h1 {
@@ -35,9 +36,16 @@ a {
   text-decoration: none;
 }
 
-i {
+h4 > i {
   font-family: Poppins;
   font-size: 35px;
+  padding: 0px 8px;
+  text-shadow: 0 0 3px #fdf9f9, 0 0 5px #A26844;
+}
+
+i {
+  font-family: Poppins;
+  font-size: 52px;
   padding: 0px 8px;
   text-shadow: 0 0 3px #fdf9f9, 0 0 5px #A26844;
 }

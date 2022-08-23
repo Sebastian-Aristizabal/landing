@@ -6,23 +6,3 @@
   line-height: 2em;
 }
 
-@media (max-width: 960px) {
-  /* Para una pantalla < 960px, se leerá este CSS */
-  .banner .footer {
-    width: 960px;
-  }
-}
-
-@media (max-width: 720px) {
-  /* Para una pantalla < 720px, se leerá este CSS */
-  .banner .footer {
-    width: 720px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* Para una pantalla < 540px, se leerá este CSS */
-  .banner .footer {
-    width: 540px;
-  }
-}
