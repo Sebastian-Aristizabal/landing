@@ -1,0 +1,72 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('components/container.css');
+@import url('components/banner.css');
+@import url('components/highlighted.css');
+@import url('components/botton.css');
+@import url("components/cards.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+/* Utilities */
+body {
+  margin: 0px;
+  font-family: Open Sans;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 52px;
+  text-shadow: 0 0 3px #fdf9f9, 0 0 5px #A26844;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 52px;
+  color: #BF9454;
+}
+h4 {
+  font-family: Poppins;
+  font-size: 35px;
+}
+a {
+  text-decoration: none;
+}
+
+i {
+  font-family: Poppins;
+  font-size: 35px;
+  padding: 0px 8px;
+  text-shadow: 0 0 3px #fdf9f9, 0 0 5px #A26844;
+}
+/* Custom design below! */
+a {
+  text-decoration: none;
+  color: #BF9454;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #BF9454;
+}
+.list-inline li {
+  display: inline; /* cambia el comportamiento de los ítems de la lista a  inline */
+  padding: 10px; /* agrega algo de relleno izquierdo/derecho entre los ítems de la lista */
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+ul {
+  padding: 0px;
+}
+
+.list-inline i:hover {
+  color: #BF9454;
+}

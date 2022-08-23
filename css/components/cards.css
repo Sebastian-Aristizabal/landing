@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .cards {
+    width: 900px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .cards {
+    width: 700px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .cards {
+    width: 500px;
+  }
+}
